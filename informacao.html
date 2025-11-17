@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solar</title>
+    <link rel="stylesheet" href="informacao_Style.css">
+
+    <script src="simulacao.js" defer></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="empresas.html">Empresas</a></li>
+                <li><a href="informacao.html">Informações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main-container">
+        <section class="informacoes">
+            <!-- Seção 1 -->
+            <article class="topico">
+                <h2>1- Limpeza e Conservação das Placas Solares</h2>
+                <p>
+                    Manter suas placas solares limpas é essencial para que elas operem com máxima eficiência.
+                    Poeira, folhas e resíduos podem reduzir a captação de energia, diminuindo a economia na conta
+                    de luz. A limpeza deve ser feita regularmente com água e sabão neutro, evitando produtos
+                    abrasivos ou jatos de alta pressão que possam danificar a superfície. Com cuidados simples,
+                    suas placas permanecem produtivas por muitos anos.
+                </p>
+            </article>
+    
+            <!-- Seção 2 -->
+            <article class="topico">
+                <h2>2- Inspeção e Manutenção Preventiva</h2>
+                <p>
+                    Além da limpeza, é importante realizar inspeções periódicas no sistema solar. Verifique se há
+                    rachaduras, sujeira acumulada, fios soltos ou sinais de desgaste nos componentes. A manutenção
+                    preventiva feita por profissionais especializados garante que o sistema funcione de forma segura,
+                    eficiente e prolonga a vida útil das placas, evitando surpresas e custos maiores no futuro.
+                </p>
+            </article>
+    
+            <!-- Seção 3: Como funciona -->
+            <article class="topico">
+                <h2>3- Como Funciona a Energia Solar</h2>
+                <p>
+                    A energia solar funciona através da captação da luz do sol por painéis fotovoltaicos, que convertem
+                    a radiação solar em energia elétrica. Essa eletricidade é enviada a um inversor solar, responsável
+                    por transformar a corrente contínua (CC) em corrente alternada (CA), que é o tipo de energia usada
+                    nas residências e empresas. O sistema pode ser conectado à rede elétrica, permitindo gerar créditos
+                    de energia quando há sobra de produção.
+                </p>
+            </article>
+    
+            <!-- Seção 4: Tipos de energia solar -->
+            <article class="topico">
+                <h2>4- Tipos de Energia Solar</h2>
+                <ul class="lista">
+                    <li><strong>Energia Solar Fotovoltaica:</strong> converte a luz solar diretamente em eletricidade
+                        através das células fotovoltaicas.</li>
+                    <li><strong>Energia Solar Térmica:</strong> usa o calor do sol para aquecer água e outros fluidos,
+                        sendo comum em aquecedores residenciais.</li>
+                    <li><strong>Energia Solar Heliotérmica (ou CSP):</strong> utiliza espelhos para concentrar a luz
+                        solar e gerar calor, que depois é usado para produzir eletricidade em larga escala.</li>
+                </ul>
+            </article>
+    
+            <!-- Seção 5: Dicas extras -->
+            <article class="topico">
+                <h2>5- Dicas Extras de Manutenção e Eficiência</h2>
+                <ul class="lista">
+                    <li>Faça a limpeza das placas no início da manhã ou no fim da tarde, evitando o calor excessivo.</li>
+                    <li>Não use produtos químicos ou esponjas abrasivas, apenas pano macio e sabão neutro.</li>
+                    <li>Monitore a geração de energia regularmente por meio do aplicativo do inversor.</li>
+                    <li>Fique atento a quedas na produção — isso pode indicar sujeira, sombras ou falhas elétricas.</li>
+                    <li>Contrate revisão técnica anual para checar conexões e integridade das placas.</li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+
+    <section class="simulacao">
+        <h2>Simulação de Geração de Energia Solar</h2>
+        <p>Veja como a energia é gerada a partir da luz solar. Quanto mais forte a luz, mais energia o painel produz!</p>
+    
+        <div class="simulador">
+            <div class="ceu" id="ceu">
+                <div class="sol" id="sol"></div>
+                <div class="lua" id="lua">🌙</div>
+                <div class="nuvens" id="nuvens"></div>
+                <div class="estrelas" id="estrelas"></div>
+            </div>
+            <div class="painel" id="painel"></div>
+            <div class="energia">
+                <div class="barra" id="barra"></div>
+            </div>
+            <p>Energia produzida: <span id="quantidade">0</span> kWh</p>
+            <p>Energia enviada à rede: <span id="bonus">0</span> kWh</p>
+            <button id="toggleSol">☀️ Alternar Nuvens</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="info-footer">
+                <h3>Contatos</h3>
+                <p>Telefone: (21) 99999-9999</p>
+                <p>WhatsApp: (21) 88888-8888</p>
+            </div>
+
+            <div class="info-footer">
+                <h3>Redes Sociais</h3>
+                <p>Instagram: @TechSolar</p>
+                <p>E-mail: techsolar@gmail.com</p>
+            </div>
+
+            <div class="info-footer">
+                <h3>Parcerias</h3>
+                <p>Parceria 1</p>
+                <p>Parceria 2</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
